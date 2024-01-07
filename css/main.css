@@ -1,0 +1,272 @@
+body{
+    background-color: black;
+}
+
+#banner{
+    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    height: 160px;
+    margin-top: 30px;
+}
+
+#banner #logo{
+    float: left;
+}
+
+#banner #logo img{
+    width: 160px;
+}
+
+#banner .titulo{
+    font-size: 116px;
+    font-family: 'Salsa', cursive;
+}
+
+#manual p,#manual h5{
+    font-family: 'Salsa', cursive;
+}
+
+#manual #logo .titulo,
+#manual #tipografia .titulo,
+#manual #colores .titulo,
+#manual #usos .titulo{
+    text-align: left;
+    margin-top: 10px;
+}
+
+#manual #logo img{
+    width: 160px;
+    float: left;
+}
+
+#manual #logo .card{
+    margin-top: 65px;
+}
+
+#manual #tipografia{
+    clear: both;
+}
+
+#manual #colores .principal p{
+    border: 1px solid black;
+    background: black;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .secundario p{
+    border: 1px solid linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .destacado p{
+    border: 1px solid linear-gradient(135deg, hsla(187, 82%, 46%, 1) 0%, hsla(223, 41%, 55%, 1) 100%);
+    background: linear-gradient(135deg, hsla(187, 82%, 46%, 1) 0%, hsla(223, 41%, 55%, 1) 100%);
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .accion p{
+    border: 1px solid linear-gradient(135deg, hsla(133, 100%, 25%, 1) 0%, hsla(61, 100%, 56%, 1) 100%);
+    background: linear-gradient(135deg, hsla(133, 100%, 25%, 1) 0%, hsla(61, 100%, 56%, 1) 100%);
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .error p{
+    border: 1px solid #DF7474;
+    background: #DF7474;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .peligro p{
+    border: 1px solid #fff3cd;
+    background: #fff3cd;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .texto p{
+    border: 1px solid white;
+    background: white;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #tipografia span,
+#manual #colores span{
+    font-family: 'Salsa', cursive;
+}
+
+#manual .card-body{
+    background: #cad1ed;
+}
+
+#web{
+    margin-top: 15px;
+    margin-bottom: 93px;
+}
+
+#web #maquetacion{
+    background: linear-gradient(135deg, hsla(187, 82%, 46%, 1) 0%, hsla(223, 41%, 55%, 1) 100%);
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#web #maquetacion .titulo{
+    padding-top: 10px;
+}
+
+#web #proyectos #banner,
+#web #detalleproyecto #banner{
+    margin-bottom: 20px;
+}
+
+#web button{
+    font-family: 'Varela Round', sans-serif;
+}
+
+#web #detalleproyecto #banner .titulo{
+    font-size: 116px;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+}
+
+#web #contacto #banner .titulo{
+    font-size: 116px;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+}
+
+#web #proyectos{
+    margin-bottom: 50px;
+}
+
+#web #detalleproyecto .titulo{
+   text-align: left;
+   font-size: 35px;
+   font-family: 'Salsa', cursive;
+}
+
+#web #detalleproyecto .subtitulo{
+    text-align: left;
+    font-size: 19px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+ }
+
+ #web #detalleproyecto .imagenes{
+    text-align: center;
+ }
+
+ #web #detalleproyecto .imagenes img{
+    width: 540px;
+ }
+
+ #web .card{
+    position: relative;
+ }
+
+ #web .card h1{
+    position: absolute;
+    left: 33%;
+    top: 43%;
+ }
+
+ #web #contacto #banner{
+    margin-bottom: 20px;
+ }
+ 
+
+ #web #contacto .titulo{
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Salsa', cursive;
+ }
+ 
+ #web #contacto #formulario .card{
+    background: #5A7ABC !important;
+    width: 500px;
+    padding: 15px;
+    position: relative;
+    height: 350px;
+ }
+
+#web #contacto #formulario .card button{
+    text-align: right;
+ }
+
+#web #contacto #formulario button{
+    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    position: absolute;
+    right: 10px;
+ }
+
+.card{
+    border-color: black;
+    background: linear-gradient(135deg, hsla(187, 82%, 46%, 1) 0%, hsla(223, 41%, 55%, 1) 100%);
+}
+
+.card .verProyecto{
+    background: linear-gradient(135deg, hsla(133, 100%, 25%, 1) 0%, hsla(61, 100%, 56%, 1) 100%);
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    border-radius: 6px;
+    display: none;
+}
+
+.card:hover img{
+    filter: blur(4px);
+}
+
+.card:hover .verProyecto{
+    display: block;
+}
+
+.card a{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.card .verProyecto:hover{
+    filter: brightness(1.2);
+}
+
+.card button:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.card button{
+    font-size: 12px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Salsa', cursive;
+}
+
+.card-body{
+    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+}
+
+.border{
+    border-radius: 4px;
+    border-color: black !important;
+}
+
+#prefooter{
+    text-align: right;
+    padding-top: 50px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#footer{
+    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    height: 40px;
+    margin-top: 30px;
+}
