@@ -277,9 +277,44 @@ body{
     margin-top: 30px;
 }
 
+@media (min-width: 590px) {
+    #manual #banner .titulo {
+        font-size: 66px;
+        font-family: 'Salsa', cursive;
+    }
+}
+
+@media (min-width: 650px) {
+    #manual #banner .titulo {
+        font-size: 70px;
+        font-family: 'Salsa', cursive;
+    }
+}
+
+@media (min-width: 690px) {
+    #manual #banner .titulo {
+        font-size: 71px;
+        font-family: 'Salsa', cursive;
+    }
+}
+
+@media (min-width: 712px) {
+    #manual #banner .titulo {
+        font-size: 71px;
+        font-family: 'Salsa', cursive;
+    }
+}
+
+@media (min-width: 800px) {
+    #manual #banner .titulo {
+        font-size: 82px;
+        font-family: 'Salsa', cursive;
+    }
+}
+
 @media (min-width: 1090px) {
     #manual #banner .titulo {
-        font-size: 95px;
+        font-size: 116px;
         font-family: 'Salsa', cursive;
     }
     
