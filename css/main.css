@@ -132,9 +132,13 @@ body{
     padding-top: 10px;
 }
 
-#web #proyectos #banner,
-#web #detalleproyecto #banner{
-    margin-bottom: 20px;
+#web #proyectos,
+#web #detalleproyecto{
+    margin-top: 30px;
+}
+
+#web #proyectos .back{
+    position: absolute;
 }
 
 #web #banner .titulo{
@@ -144,6 +148,8 @@ body{
 
 #web button{
     font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 #web #detalleproyecto #banner .titulo{
@@ -226,23 +232,42 @@ body{
 .card{
     border-color: black;
     background: linear-gradient(135deg, hsla(187, 82%, 46%, 1) 0%, hsla(223, 41%, 55%, 1) 100%);
+    overflow: hidden;
 }
 
 .card .verProyecto{
     background: linear-gradient(135deg, hsla(133, 100%, 25%, 1) 0%, hsla(61, 100%, 56%, 1) 100%);
-    position: absolute;
-    bottom: 7px;
-    right: 7px;
     border-radius: 6px;
-    display: none;
+    opacity: 0;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+}
+
+.card .verProyecto a{
+    display: block;
+    height: 35px;
 }
 
 .card:hover img{
     filter: blur(4px);
 }
 
+.card:hover img{
+    transition: all 1s ease;
+    transform: scale(1.5);
+}
+
 .card:hover .verProyecto{
-    display: block;
+    animation:btnVerProyecto 0.5s linear;
+    opacity: 1;
+    cursor: pointer;
+    width: 126px;
+    height: 35px;
 }
 
 .card a{
@@ -339,4 +364,30 @@ body{
     #web #detalleproyecto .imagenes img{
         width: 540px;
      }
+}
+
+
+@media (min-width: 1090px) {
+    .card:hover .verProyecto {
+        width: 150px;
+        height: 50px;
+    }
+    
+    .card .verProyecto a {
+        height: 50px;
+    }
+
+    #web button {
+        height: 50px;
+    }
+}
+
+
+@keyframes btnVerProyecto {
+    0% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
