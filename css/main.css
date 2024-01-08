@@ -35,11 +35,13 @@ body{
 
 #manual #logo img{
     width: 160px;
-    float: left;
+    display: inline-block;
 }
 
 #manual #logo .card{
-    margin-top: 65px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
 #manual #tipografia{
@@ -102,6 +104,17 @@ body{
 
 #manual .card-body{
     background: #cad1ed;
+}
+
+#manual #accordionExample{
+    margin-top: 15px;
+}
+
+#manual #accordionExample button{
+    font-family: 'Salsa', cursive;
+    background-color: #6085d5;
+    color: white;
+    font-weight: 800;
 }
 
 #web{
