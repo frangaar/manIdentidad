@@ -161,7 +161,8 @@ body{
 }
 
 #web #proyectos,
-#web #detalleproyecto{
+#web #detalleproyecto,
+#web #contacto{
     margin-top: 30px;
 }
 
@@ -228,10 +229,6 @@ body{
     position: absolute;
     left: 33%;
     top: 43%;
- }
-
- #web #contacto #banner{
-    margin-bottom: 20px;
  }
  
 
