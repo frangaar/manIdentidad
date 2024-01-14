@@ -262,7 +262,7 @@ body{
 
 .card{
     border-color: black;
-    background: linear-gradient(135deg, hsla(187, 82%, 46%, 1) 0%, hsla(223, 41%, 55%, 1) 100%);
+    background: black;
     overflow: hidden;
 }
 
