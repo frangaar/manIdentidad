@@ -21,17 +21,19 @@
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Logo
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <div id="logo">
                             <img src="img/logo.PNG">
                             <div class="card">
                                 <div class="card-body">
-                                  <p class="card-text">Las dimensiones del logo serán de 160px de ancho y estará ubicado a la izquierda del banner.</p>
+                                  <p class="card-text">Las dimensiones del logo serán de 160px de ancho y estará ubicado a la izquierda del banner.
+                                    Para mobile, dejar un margin-top de 20px
+                                  </p>
                                 </div>
                             </div>
                         </div>
@@ -40,11 +42,11 @@
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Tipografia
                     </button>
                   </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <div id="tipografia">
                             <div class="row row-cols-1 row-cols-md-12 g-4">
@@ -71,11 +73,11 @@
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Colores
                     </button>
                   </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <div id="colores">
                             <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5 g-4">
@@ -84,7 +86,7 @@
                                         <div class="card-body principal">
                                             <h5 class="card-title">Color principal</h5>
                                             <p class="card-text"></p>
-                                            <span>Utilizado para el fondo como color principal y predominante. También utilizado en los mensajes de error y alerta.</span>
+                                            <span>Utilizado para el banner y footer.</span>
                                         </div>
                                   </div>
                                 </div>
@@ -93,7 +95,7 @@
                                         <div class="card-body secundario">
                                             <h5 class="card-title">Color secundario</h5>
                                             <p class="card-text"></p>
-                                            <span>Utilizado para el banner y footer.</span>
+                                            <span>Utilizado para el fondo como color predominante.</span>
                                         </div>
                                   </div>
                                 </div>
@@ -103,6 +105,9 @@
                                             <h5 class="card-title">Color destacado</h5>
                                             <p class="card-text"></p>
                                             <span>Utilizado para destacar contenidos.</span>
+                                            <div class="alert alert-primary destacado" role="alert">
+                                                Aquí puedes ver proyectos destacados
+                                            </div>
                                         </div>
                                   </div>
                                 </div>
@@ -121,6 +126,9 @@
                                             <h5 class="card-title">Color alerta</h5>
                                             <p class="card-text"></p>
                                             <span>Utilizado para los mensajes de error.</span>
+                                            <div class="alert alert-danger" role="alert">
+                                                Se ha producido un error al enviar el formulario
+                                            </div>
                                         </div>
                                     </div>
                                   </div>
@@ -130,6 +138,9 @@
                                             <h5 class="card-title">Color peligro</h5>
                                             <p class="card-text"></p>
                                             <span>Utilizado para los mensajes de alerta.</span>
+                                            <div class="alert alert-warning" role="alert">
+                                                Faltan datos por informar en el formulario
+                                            </div>
                                         </div>
                                     </div>
                                   </div>
@@ -139,6 +150,17 @@
                                             <h5 class="card-title">Color texto</h5>
                                             <p class="card-text"></p>
                                             <span>Utilizado para el texto de los títulos, párrafos de texto.</span>
+                                            <p class="card-text text2"></p>
+                                            <span>Utilizado para el texto del banner, footer, textos destacados y etiquetas de formularios.</span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body formulario">
+                                            <h5 class="card-title">Color formularios</h5>
+                                            <p class="card-text"></p>
+                                            <span>Utilizado como color de fondo de los formularios.</span>
                                         </div>
                                     </div>
                                   </div>
@@ -149,11 +171,11 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Usos
                       </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         <div id="usos">
                             <div class="row row-cols-1 row-cols-md-12 g-4">
@@ -162,9 +184,8 @@
                                         <div class="card-body Correctos">
                                             <h5 class="card-title">Uso correcto fuentes:</h5>
                                             <ul>
-                                                <li>Fuentes fácilmente legibles</li>
-                                                <li>Jerarquia correcta</li>
-                                                <li>Limitar las fuentes</li>
+                                                <li>Utilizar la fuente Salsa solo para banner y títulos</li>
+                                                <li>Utilizar la fuente Varela solo para botones, subtítulos y títulos</li>
                                                 <li>Alineación correcta</li>
                                             </ul>
                                         </div>
@@ -175,10 +196,9 @@
                                         <div class="card-body Incorrectos">
                                             <h5 class="card-title">Uso incorrecto fuentes</h5>
                                             <ul>
-                                                <li>Fuentes no legibles</li>
-                                                <li>Demasiadas fuentes</li>
-                                                <li>Tamaños incorrectos</li>
-                                                <li>Inconsistencia de uso en todo el diseño</li>
+                                                <li>Utilizar la fuente Salsa en descripciones, botones, mensajes de error, formularios</li>
+                                                <li>Utilizar la fuente Varela para títulos o banners</li>
+                                                <li>Mala alineación</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -190,8 +210,9 @@
                                             <ul>
                                                 <li>Colores que transmitan calma y seriedad</li>
                                                 <li>Colores coherentes con el conjunto de la marca</li>
-                                                <li>Colores accesibles para personas con discapacidades visuales</li>
-                                                <li>Colores basados en la funcionalidad</li>
+                                                <li>Utilizar el color principal solo para banner y footer.</li>
+                                                <li>Utilizar el color secundario solo para fondo.</li>
+                                                <li>Color de acción en botones para visualizar proyectos</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -202,7 +223,7 @@
                                             <h5 class="card-title">Uso incorrecto colores</h5>
                                             <ul>
                                                 <li>Colores agresivos</li>
-                                                <li>Falta de contraste</li>
+                                                <li>Uso del color de acción en banners, footers, formularios o textos</li>
                                                 <li>Colores que ignoren la accesibilidad</li>
                                                 <li>Inconsistencia de uso en todo el diseño</li>
                                             </ul>
@@ -322,7 +343,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="asunto">Consulta</label><br>
-                                <textarea id="asunto" name="asunto" rows="5" cols="55"></textarea>
+                                <textarea id="asunto" name="asunto" rows="5" cols="45"></textarea>
                               </div>
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </form>

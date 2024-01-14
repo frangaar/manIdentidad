@@ -1,22 +1,29 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 
 #banner{
-    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    background: rgba(21, 23, 34, 0.974);
     height: 160px;
     margin-top: 30px;
 }
 
 #banner #logo{
     float: left;
+    margin-top: 20px;
+}
+
+#banner #logo{
+    top: 3px;
+    left: 15px;
 }
 
 #banner #logo img{
-    width: 160px;
+    width: 120px;
 }
 
 #manual #banner .titulo{
+    color: white;
     font-size: 60px;
     font-family: 'Salsa', cursive;
 }
@@ -49,29 +56,35 @@ body{
 }
 
 #manual #colores .principal p{
-    border: 1px solid black;
-    background: black;
+    border: 1px solid rgba(21, 23, 34, 0.974);
+    background: rgba(21, 23, 34, 0.974);
     width: 150px;
     height: 20px;
 }
 
 #manual #colores .secundario p{
+    background: white;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .destacado p{
     border: 1px solid linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
     background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
     width: 150px;
     height: 20px;
 }
 
-#manual #colores .destacado p{
-    border: 1px solid linear-gradient(135deg, hsla(187, 82%, 46%, 1) 0%, hsla(223, 41%, 55%, 1) 100%);
-    background: linear-gradient(135deg, hsla(187, 82%, 46%, 1) 0%, hsla(223, 41%, 55%, 1) 100%);
-    width: 150px;
-    height: 20px;
+#manual #colores .alert.destacado{
+    color: white;
+    font-weight: 800;
+    border: 1px solid linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
 }
 
 #manual #colores .accion p{
-    border: 1px solid linear-gradient(135deg, hsla(133, 100%, 25%, 1) 0%, hsla(61, 100%, 56%, 1) 100%);
-    background: linear-gradient(135deg, hsla(133, 100%, 25%, 1) 0%, hsla(61, 100%, 56%, 1) 100%);
+    border: 1px solid #ffff78;
+    background: #ffff78;
     width: 150px;
     height: 20px;
 }
@@ -91,6 +104,14 @@ body{
 }
 
 #manual #colores .texto p{
+    border: 1px solid black;
+    background: white;
+    background: black;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .texto p.text2{
     border: 1px solid white;
     background: white;
     width: 150px;
@@ -112,7 +133,7 @@ body{
 
 #manual #accordionExample button{
     font-family: 'Salsa', cursive;
-    background-color: #6085d5;
+    background-color: #334d68;    
     color: white;
     font-weight: 800;
 }
@@ -142,6 +163,7 @@ body{
 }
 
 #web #banner .titulo{
+    color: white;
     font-size: 60px;
     font-family: 'Salsa', cursive;
 }
@@ -178,6 +200,7 @@ body{
     text-align: left;
     font-size: 19px;
     color: white;
+    color: black;
     font-family: 'Varela Round', sans-serif;
  }
 
@@ -212,7 +235,10 @@ body{
  }
  
  #web #contacto #formulario .card{
-    background: #5A7ABC !important;
+    background: #334d68 !important;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 800;
     width: 458px;
     padding: 15px;
     position: relative;
@@ -224,9 +250,10 @@ body{
  }
 
 #web #contacto #formulario button{
-    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
     position: absolute;
     right: 10px;
+    bottom: 10px;
+    height: 40px;
  }
 
 .card{
@@ -236,7 +263,8 @@ body{
 }
 
 .card .verProyecto{
-    background: linear-gradient(135deg, hsla(133, 100%, 25%, 1) 0%, hsla(61, 100%, 56%, 1) 100%);
+    background: #ffff78;
+    border: 1px solid black;
     border-radius: 6px;
     opacity: 0;
     width: 150px;
@@ -289,13 +317,14 @@ body{
 
 .titulo{
     color: white;
+    color: black;
     text-align: center;
     padding-bottom: 15px;
     font-family: 'Salsa', cursive;
 }
 
 .card-body{
-    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    background: rgba(21, 23, 34, 0.974);
 }
 
 .border{
@@ -310,9 +339,14 @@ body{
 }
 
 #footer{
-    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    background: rgba(21, 23, 34, 0.974);
     height: 40px;
     margin-top: 30px;
+}
+
+.alert{
+    margin-top: 15px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 @media (min-width: 590px) {
@@ -327,12 +361,28 @@ body{
         font-size: 70px;
         font-family: 'Salsa', cursive;
     }
+
+    #banner #logo{
+        margin-top: 20px;
+    }
+
+    #banner #logo img{
+        width: 160px;
+    }
 }
 
 @media (min-width: 690px) {
     #manual #banner .titulo {
         font-size: 71px;
         font-family: 'Salsa', cursive;
+    }
+
+    #banner #logo{
+        margin-top: 0px;
+    }
+
+    #banner #logo img{
+        width: 160px;
     }
 }
 
@@ -341,12 +391,28 @@ body{
         font-size: 71px;
         font-family: 'Salsa', cursive;
     }
+
+    #banner #logo{
+        margin-top: 0px;
+    }
+
+    #banner #logo img{
+        width: 160px;
+    }
 }
 
 @media (min-width: 800px) {
     #manual #banner .titulo {
         font-size: 82px;
         font-family: 'Salsa', cursive;
+    }
+
+    #banner #logo{
+        margin-top: 0px;
+    }
+
+    #banner #logo img{
+        width: 160px;
     }
 }
 
@@ -364,6 +430,14 @@ body{
     #web #detalleproyecto .imagenes img{
         width: 540px;
      }
+
+    #banner #logo{
+        margin-top: 0px;
+    }
+
+    #banner #logo img{
+        width: 160px;
+    }
 }
 
 
@@ -379,6 +453,14 @@ body{
 
     #web button {
         height: 50px;
+    }
+
+    #banner #logo{
+        margin-top: 0px;
+    }
+
+    #banner #logo img{
+        width: 160px;
     }
 }
 
