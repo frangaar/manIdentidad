@@ -4,7 +4,7 @@ body{
 
 #banner{
     background: rgba(21, 23, 34, 0.974);
-    height: 160px;
+    /* height: 160px; */
     margin-top: 30px;
 }
 
@@ -243,7 +243,7 @@ body{
     color: white;
     font-family: 'Varela Round', sans-serif;
     font-weight: 800;
-    width: 458px;
+    /* width: 458px; */
     padding: 15px;
     position: relative;
     height: 350px;
@@ -358,6 +358,10 @@ body{
         font-size: 66px;
         font-family: 'Salsa', cursive;
     }
+
+    #web #contacto #formulario .card{
+        width: 458px;
+     }
 }
 
 @media (min-width: 650px) {
