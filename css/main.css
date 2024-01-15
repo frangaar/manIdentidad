@@ -10,7 +10,7 @@ body{
 
 #banner #logo{
     float: left;
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 #banner #logo{
@@ -371,7 +371,7 @@ body{
     }
 
     #banner #logo img{
-        width: 160px;
+        width: 180px;
     }
 }
 
@@ -402,7 +402,7 @@ body{
     }
 
     #banner #logo{
-        margin-top: 0px;
+        margin-top: 35px;
     }
 
     #banner #logo img{
@@ -419,10 +419,6 @@ body{
     #manual #banner .titulo {
         font-size: 82px;
         font-family: 'Salsa', cursive;
-    }
-
-    #banner #logo{
-        margin-top: 0px;
     }
 
     #banner #logo img{
@@ -462,14 +458,25 @@ body{
         height: 50px;
     }
 
-    #banner #logo{
-        margin-top: 0px;
-    }
-
     #banner #logo img{
         width: 160px;
     }
 }
+
+
+@media (min-width: 1090px) {
+    #manual #logo .card {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        /* display: inline-block; */
+    }
+
+    #manual #logo img {
+        width: 270px;
+        /* display: inline-block; */
+    }
+}
+
 
 
 @keyframes btnVerProyecto {
