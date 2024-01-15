@@ -10,7 +10,7 @@ body{
 
 #banner #logo{
     float: left;
-    margin-top: 45px;
+    margin-top: 8px;
 }
 
 #banner #logo{
@@ -370,9 +370,7 @@ body{
         font-family: 'Salsa', cursive;
     }
 
-    #banner #logo{
-        margin-top: 20px;
-    }
+    
 
     #banner #logo img{
         width: 180px;
@@ -405,12 +403,10 @@ body{
         font-family: 'Salsa', cursive;
     }
 
-    #banner #logo{
-        margin-top: 35px;
-    }
+   
 
     #banner #logo img{
-        width: 160px;
+        width: 80px;
     }
 
     
@@ -426,7 +422,7 @@ body{
     }
 
     #banner #logo img{
-        width: 160px;
+        width: 92px;
     }
 
     #web #banner .titulo {
@@ -463,23 +459,17 @@ body{
     }
 
     #banner #logo img{
-        width: 160px;
+        width: 117px;
     }
-}
 
-
-@media (min-width: 1090px) {
     #manual #logo .card {
         margin-top: 25px;
         margin-bottom: 20px;
         /* display: inline-block; */
     }
-
-    #manual #logo img {
-        width: 270px;
-        /* display: inline-block; */
-    }
 }
+
+
 
 
 
