@@ -172,7 +172,7 @@ body{
 
 #web #banner .titulo{
     color: white;
-    font-size: 60px;
+    font-size: 55px;
     font-family: 'Salsa', cursive;
 }
 
@@ -388,6 +388,11 @@ body{
     #banner #logo img{
         width: 160px;
     }
+
+    
+    #web #banner .titulo {
+        font-size: 60px;
+    }
 }
 
 @media (min-width: 712px) {
@@ -402,6 +407,11 @@ body{
 
     #banner #logo img{
         width: 160px;
+    }
+
+    
+    #web #banner .titulo {
+        font-size: 60px;
     }
 }
 
@@ -418,6 +428,10 @@ body{
     #banner #logo img{
         width: 160px;
     }
+
+    #web #banner .titulo {
+        font-size: 71px;
+    }
 }
 
 @media (min-width: 1090px) {
@@ -427,7 +441,7 @@ body{
     }
     
     #web #banner .titulo {
-        font-size: 95px !important;
+        font-size: 95px;
         font-family: 'Salsa', cursive;
     }
 
@@ -435,18 +449,7 @@ body{
         width: 540px;
      }
 
-    #banner #logo{
-        margin-top: 0px;
-    }
-
-    #banner #logo img{
-        width: 160px;
-    }
-}
-
-
-@media (min-width: 1090px) {
-    .card:hover .verProyecto {
+     .card:hover .verProyecto {
         width: 150px;
         height: 50px;
     }
