@@ -28,7 +28,7 @@ body{
     font-family: 'Salsa', cursive;
 }
 
-#manual p,#manual h5{
+#manual p{
     font-family: 'Salsa', cursive;
 }
 
@@ -125,7 +125,15 @@ body{
     height: 20px;
 }
 
-#manual #tipografia span,
+#manual #tipografia .principal{
+    font-family: 'Salsa', cursive !important;
+}
+
+#manual #tipografia .secundario{
+    font-family: 'Instrument Serif', serif !important;
+}
+
+
 #manual #colores span{
     font-family: 'Salsa', cursive;
 }
@@ -177,7 +185,7 @@ body{
 }
 
 #web button{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Instrument Serif', serif;
     font-weight: 600;
     font-size: 15px;
 }
@@ -209,7 +217,7 @@ body{
     font-size: 19px;
     color: white;
     color: black;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Instrument Serif', serif;
  }
 
  #web #detalleproyecto .imagenes{
@@ -241,7 +249,7 @@ body{
  #web #contacto #formulario .card{
     background: #334d68 !important;
     color: white;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Instrument Serif', serif;
     font-weight: 800;
     width: 375px;
     padding: 15px;
@@ -307,7 +315,7 @@ body{
 }
 
 .card a{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Instrument Serif', serif;
 }
 
 .card .verProyecto:hover{
@@ -343,7 +351,7 @@ body{
 #prefooter{
     text-align: right;
     padding-top: 50px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Instrument Serif', serif;
 }
 
 #footer{
@@ -354,7 +362,7 @@ body{
 
 .alert{
     margin-top: 15px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Instrument Serif', serif;
 }
 
 @media (min-width: 590px) {
