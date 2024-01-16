@@ -1,0 +1,491 @@
+body{
+    background-color: white;
+}
+
+#banner{
+    background: rgba(21, 23, 34, 0.974);
+    /* height: 160px; */
+    margin-top: 30px;
+}
+
+#banner #logo{
+    float: left;
+    margin-top: 8px;
+}
+
+#banner #logo{
+    top: 3px;
+    left: 15px;
+}
+
+#banner #logo img{
+    width: 120px;
+}
+
+#manual #banner .titulo{
+    color: white;
+    font-size: 60px;
+    font-family: 'Salsa', cursive;
+}
+
+#manual p{
+    font-family: 'Salsa', cursive;
+}
+
+#manual #logo .titulo,
+#manual #tipografia .titulo,
+#manual #colores .titulo,
+#manual #usos .titulo{
+    text-align: left;
+    margin-top: 10px;
+}
+
+#manual #logo img{
+    width: 160px;
+    display: inline-block;
+}
+
+#manual #logo .card{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#manual #tipografia{
+    clear: both;
+}
+
+#manual #colores .principal p{
+    border: 1px solid rgba(21, 23, 34, 0.974);
+    background: rgba(21, 23, 34, 0.974);
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .secundario p{
+    background: white;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .destacado p{
+    border: 1px solid linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .alert.destacado{
+    color: white;
+    font-weight: 800;
+    border: 1px solid linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    background: linear-gradient(135deg, hsla(343, 67%, 58%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+}
+
+#manual #colores .accion p{
+    border: 1px solid #ffff78;
+    background: #ffff78;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .error p{
+    border: 1px solid #DF7474;
+    background: #DF7474;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .peligro p{
+    border: 1px solid #fff3cd;
+    background: #fff3cd;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .texto p{
+    border: 1px solid black;
+    background: white;
+    background: black;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .texto p.text2{
+    border: 1px solid white;
+    background: white;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #colores .formulario p{
+    border: 1px solid #334D68;
+    background: #334D68;
+    width: 150px;
+    height: 20px;
+}
+
+#manual #tipografia .principal{
+    font-family: 'Salsa', cursive !important;
+}
+
+#manual #tipografia .secundario{
+    font-family: 'Instrument Serif', serif !important;
+}
+
+
+#manual #colores span{
+    font-family: 'Salsa', cursive;
+}
+
+#manual .card-body{
+    background: #cad1ed;
+}
+
+#manual #accordionExample{
+    margin-top: 15px;
+}
+
+#manual #accordionExample button{
+    font-family: 'Salsa', cursive;
+    background-color: #334d68;    
+    color: white;
+    font-weight: 800;
+}
+
+#web{
+    margin-top: 15px;
+    margin-bottom: 93px;
+}
+
+#web #maquetacion{
+    background: linear-gradient(135deg, hsla(187, 82%, 46%, 1) 0%, hsla(223, 41%, 55%, 1) 100%);
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#web #maquetacion .titulo{
+    padding-top: 10px;
+}
+
+#web #proyectos,
+#web #detalleproyecto,
+#web #contacto{
+    margin-top: 30px;
+}
+
+#web #proyectos .back{
+    position: absolute;
+}
+
+#web #banner .titulo{
+    color: white;
+    font-size: 55px;
+    font-family: 'Salsa', cursive;
+}
+
+#web button{
+    font-family: 'Instrument Serif', serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#web #detalleproyecto #banner .titulo{
+    font-size: 60px;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+}
+
+#web #contacto #banner .titulo{
+    font-size: 60px;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+}
+
+#web #proyectos{
+    margin-bottom: 50px;
+}
+
+#web #detalleproyecto .titulo{
+   text-align: left;
+   font-size: 35px;
+   font-family: 'Salsa', cursive;
+}
+
+#web #detalleproyecto .subtitulo{
+    text-align: left;
+    font-size: 19px;
+    color: white;
+    color: black;
+    font-family: 'Instrument Serif', serif;
+ }
+
+ #web #detalleproyecto .imagenes{
+    text-align: center;
+ }
+
+ #web #detalleproyecto .imagenes img {
+    width: 460px;
+    margin-top: 15px;
+}
+
+ #web .card{
+    position: relative;
+ }
+
+ #web .card h1{
+    position: absolute;
+    left: 33%;
+    top: 43%;
+ }
+ 
+
+ #web #contacto .titulo{
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Salsa', cursive;
+ }
+ 
+ #web #contacto #formulario .card{
+    background: #334d68 !important;
+    color: white;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 800;
+    width: 375px;
+    padding: 15px;
+    position: relative;
+    height: 350px;
+ }
+
+#web #contacto #formulario .card button{
+    text-align: right;
+ }
+
+#web #contacto #formulario button{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 40px;
+ }
+
+ #web #contacto #formulario #asunto{
+    width: 100%;
+ }
+
+.card{
+    border-color: black;
+    background: black;
+    overflow: hidden;
+}
+
+.card .verProyecto{
+    background: #ffff78;
+    border: 1px solid black;
+    border-radius: 6px;
+    opacity: 0;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+}
+
+.card .verProyecto a{
+    display: block;
+    height: 35px;
+}
+
+.card:hover img{
+    filter: blur(4px);
+}
+
+.card:hover img{
+    transition: all 1s ease;
+    transform: scale(1.5);
+}
+
+.card:hover .verProyecto{
+    animation:btnVerProyecto 0.5s linear;
+    opacity: 1;
+    cursor: pointer;
+    width: 126px;
+    height: 35px;
+}
+
+.card a{
+    font-family: 'Instrument Serif', serif;
+}
+
+.card .verProyecto:hover{
+    filter: brightness(1.2);
+}
+
+.card button:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.card button{
+    font-size: 12px;
+}
+
+.titulo{
+    color: white;
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Salsa', cursive;
+}
+
+.card-body{
+    background: rgba(21, 23, 34, 0.974);
+}
+
+.border{
+    border-radius: 4px;
+    border-color: black !important;
+}
+
+#prefooter{
+    text-align: right;
+    padding-top: 50px;
+    font-family: 'Instrument Serif', serif;
+}
+
+#footer{
+    background: rgba(21, 23, 34, 0.974);
+    height: 40px;
+    margin-top: 30px;
+}
+
+.alert{
+    margin-top: 15px;
+    font-family: 'Instrument Serif', serif;
+}
+
+@media (min-width: 590px) {
+    #manual #banner .titulo {
+        font-size: 66px;
+        font-family: 'Salsa', cursive;
+    }
+}
+
+@media (min-width: 650px) {
+    #manual #banner .titulo {
+        font-size: 70px;
+        font-family: 'Salsa', cursive;
+    }
+
+    
+
+    #banner #logo img{
+        width: 180px;
+    }
+}
+
+@media (min-width: 690px) {
+    #manual #banner .titulo {
+        font-size: 71px;
+        font-family: 'Salsa', cursive;
+    }
+
+    #banner #logo{
+        margin-top: 0px;
+    }
+
+    #banner #logo img{
+        width: 160px;
+    }
+
+    
+    #web #banner .titulo {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 712px) {
+    #manual #banner .titulo {
+        font-size: 71px;
+        font-family: 'Salsa', cursive;
+    }
+
+   
+
+    #banner #logo img{
+        width: 80px;
+    }
+
+    
+    #web #banner .titulo {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 800px) {
+    #manual #banner .titulo {
+        font-size: 82px;
+        font-family: 'Salsa', cursive;
+    }
+
+    #banner #logo img{
+        width: 92px;
+    }
+
+    #web #banner .titulo {
+        font-size: 71px;
+    }
+}
+
+@media (min-width: 1090px) {
+    #manual #banner .titulo {
+        font-size: 116px;
+        font-family: 'Salsa', cursive;
+    }
+    
+    #web #banner .titulo {
+        font-size: 95px;
+        font-family: 'Salsa', cursive;
+    }
+
+    #web #detalleproyecto .imagenes img{
+        width: 540px;
+     }
+
+     .card:hover .verProyecto {
+        width: 150px;
+        height: 50px;
+    }
+    
+    .card .verProyecto a {
+        height: 50px;
+    }
+
+    #web button {
+        height: 50px;
+    }
+
+    #banner #logo img{
+        width: 117px;
+    }
+
+    #manual #logo .card {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        /* display: inline-block; */
+    }
+}
+
+
+
+
+
+@keyframes btnVerProyecto {
+    0% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -6,14 +6,22 @@ document.addEventListener('DOMContentLoaded',function(){
 
    function resizeProyectos(){
 
-        let proyectos = document.querySelectorAll('#web #proyectos .col');
+        let slides = document.querySelectorAll('.slide');
 
-        proyectos.forEach(element => {
-                let ancho = element.querySelector('.front').offsetWidth;
-                let alto = element.querySelector('.front').offsetHeight;
+        slides.forEach(element => {
 
-                element.querySelector('.back').style.width = ancho + 'px';
-                element.querySelector('.back').style.height = alto + 'px';
+                let alto = window.innerHeight;
+
+                element.style.height = alto + 'px';
+        });
+
+        let cuadrados = document.querySelectorAll('.slide > .row');
+
+        cuadrados.forEach(element => {
+
+                let alto = window.innerHeight;
+
+                element.style.height = alto + 'px';
         });
 
    }
