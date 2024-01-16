@@ -379,7 +379,7 @@
 .slide #cuadrado21 img,
 .slide #cuadrado22 img{
     max-width: inherit;
-    width: 400px;
+    width: 100%;
     margin-top: 10px;
 }
 
