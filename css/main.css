@@ -1,12 +1,13 @@
-#slide1,#slide3,#slide5,#slide7,#slide9{
+#slide1,#slide3,#slide5,#slide7,#slide9,#slide12{
     background-color: black;
 }
 
-#slide4,#slide6,#slide8,#slide11{
+#slide4,#slide6,#slide8,#slide9,#slide11{
     height: auto !important;
 }
 
-#slide8 > .row{
+#slide8 > .row,
+#slide11> .row{
     height: auto !important;
     margin-bottom: 35px;
 }
