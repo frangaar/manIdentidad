@@ -165,6 +165,46 @@
     position: relative;
 }
 
+.slide .card .salsa h5{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #774385
+}
+
+.slide .card .instrument h5{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #774385
+}
+
+.slide > .container > p{
+    font-family: 'Salsa', cursive;
+}
+
+.slide .cuadrado p{
+    font-family: 'Salsa', cursive;
+}
+
+.slide .cuadrado span{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.slide .card-body{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.slide .cuadrado li{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .slide .cuadrado img{
     max-width: 200px;
 }
